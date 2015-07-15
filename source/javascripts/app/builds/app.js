@@ -188,7 +188,8 @@ App.Project.reopenClass({
       baseFileName: 'ember-data',
       projectFilter: [ /ember-data\./ ],
       projectRepo: 'emberjs/data',
-      channel: "tagged"
+      channel: "tagged",
+      ignoreFiles: ['_ribbon']
     }, {
       projectName: "Ember",
       baseFileName: 'ember',
